@@ -100,7 +100,8 @@ const SearchResults: React.FC = () => {
         query.data &&
         (query.data.pages[0].hits.length === 0 ? (
           <p className="text-2xl font-bold dark:text-brand-white">
-            Sorry, your search for "{searchTerm}" returned zero results.
+            Sorry, your search for &quot;{searchTerm}&quot; returned zero
+            results
           </p>
         ) : (
           <p className="text-2xl font-bold dark:text-brand-white">
